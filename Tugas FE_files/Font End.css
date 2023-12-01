@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif,;
+    line-height: 1.6;
+    background-color: white;
+    color: black;
+}
+header {
+    background-color: skyblue;
+    color: black;
+    text-align: left;
+    justify-content: space-between;
+    padding: 5px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    display: inline-flex;
+    margin-right: 20px;
+}
+nav li img {
+    width: 60px;
+    padding: 0px;
+    display: inline-flex;
+    position: relative;
+}
+nav a {
+    text-decoration: white;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    top: 50px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+    height: 55vh; 
+    background-image: url('https://skha.co.id/wp-content/uploads/2022/11/Ancaman-Disrupsi-Sharing-Economy-Terhadap-Industri-Perhotelan-Skha-perusahaan-konsultan-manajemen-di-jakarta.jpg');
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    border-color: #ecf0f1;
+      border-radius: 10PX;
+    margin: 40px; 
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+main { 
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+.box {
+    width: 900px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  background-color: silver;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: space-between;
+  text-align: center;
+  }
+  .search-box {
+    text-align: center;
+  }
+  .search-box input {
+    width: 50%; 
+    padding: 8px;
+    margin-right: 10px;
+    background-color: aliceblue;
+    color: white;
+    border-radius: 20px;
+    text-align: center; 
+  }
+  .search-box2 input {
+    width: 50%; 
+    padding: 8px;
+    margin-right: 10px;
+    background-color: aliceblue;
+    color: white;
+    border-radius: 20px;
+    text-align: center; 
+  }
+  .search-box3 input {
+    width: 50%; 
+    padding: 8px;
+    margin-right: 10px;
+    background-color: aliceblue;
+    color: white;
+    border-radius: 20px;
+    text-align: center; 
+  }
+  .search-box4 input {
+    width: 50%; 
+    padding: 8px;
+    margin-right: 10px;
+    background-color: aliceblue;
+    color: white;
+    border-radius: 20px;
+    text-align: center; 
+  }  
+  .search-box5 button {
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .Menu {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  .Menu li b {
+    margin: 10px;
+  }
+  .Menu b {
+    text-decoration: black;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .box-2 {
+    height:max-content;
+    width: fit-content;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  display: inline;
+  position: absolute;
+  top: 265%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  justify-content: space-between;
+  }
+.nav3 ul {
+list-style: none;
+padding: 0px;
+margin: 0;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+section {
+    margin-bottom: 30px;
+}
+.section2 {
+    margin: 0;
+    padding: 0;
+    top: 20%;
+    box-sizing: border-box;
+    place-items: center;
+    display: grid;
+    height: 100vh;
+}
+.Box-menu {
+  body{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0; 
+  }
+  
+}
+  .hotel-listings {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.hotel-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+.hotel-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.hotel-card h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.hotel-card p {
+    color: #666;
+    margin-top: 5px;
+}
+
+.price {
+    display: block;
+    font-weight: bold;
+    color: #3498db;
+    margin-top: 10px;
+}
+footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
