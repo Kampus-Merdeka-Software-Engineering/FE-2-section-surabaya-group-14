@@ -57,7 +57,7 @@ var swiper = new Swiper(".gallery-slider", {
     loop:true,
     centeredSlides:true,
     autoplay: {
-        delay: 1500,
+        delay: 1000,
         disableOnInteraction: false,
     },
     pagination: {
