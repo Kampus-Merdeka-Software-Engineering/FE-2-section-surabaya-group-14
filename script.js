@@ -1,14 +1,9 @@
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .navbar');
 const contactForm = document.getElementById('form');
-
-  contactForm.addEventListener('submit', (event) => {
-    event.preventDefault();
-  
     const fullName = document.getElementById('full-name').value;
     const email = document.getElementById('email').value;
     const phone = document.getElementById('phone').value;
-    const message = document.getElementById('message').value;
   
     fetch('https://be-2-section-surabaya-group-14-production.up.railway.app/contact', {
       method: 'POST',
