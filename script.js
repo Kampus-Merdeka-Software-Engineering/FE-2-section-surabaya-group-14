@@ -1,20 +1,6 @@
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .navbar');
-const contactForm = document.getElementById('form');
-    const fullName = document.getElementById('full-name').value;
-    const email = document.getElementById('email').value;
-    const phone = document.getElementById('phone').value;
-  
-    fetch('https://be-2-section-surabaya-group-14-production.up.railway.app/contact', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        fullname: Name,
-        email: Email,
-        phone: Phone,
-        message: Message,
-      }),
-    })
+
 menu.onclick = () => {
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
