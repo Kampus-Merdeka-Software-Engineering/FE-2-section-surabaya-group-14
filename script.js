@@ -15,18 +15,6 @@ const contactForm = document.getElementById('form');
         message: Message,
       }),
     })
-      .then((response) => {
-        if (response.ok) {
-          alert('Succesfully Submit Form');
-          location.reload(true);
-        } else {
-          alert('Failed to Submit Form');
-        }
-      })
-      .catch((error) => {
-        alert('Something When Wrong to Submit!', error);
-      });
-  });
 menu.onclick = () => {
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
