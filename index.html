@@ -564,8 +564,18 @@
       <form action="">
         <div class="container">
           <div class="box">
-            <p>name <span>*</span></p>
-            <input type="text" class="input" placeholder="Your Name" />
+            <p for="name">Name</p><br />
+            <input name="full-name" id="full-name" type="text" cols="30" rows="10" placeholder="full Name" required />
+          </div>
+          
+          <div>
+            <label for="email">Email</label><br />
+            <input name="email" id="email" type="email" cols="30" rows="10" placeholder="email Address" required />
+          </div>
+
+           <div>
+            <label for="phone">Phone</label><br />
+            <input name="phone" id="phone" type="text" cols="30" rows="10"  min="0" placeholder="phone" required />
           </div>
 
           <div class="box">
@@ -630,7 +640,6 @@
             </select>
           </div>
         </div>
-
         <input type="submit" value="check availability" class="btn" />
       </form>
     </section>
