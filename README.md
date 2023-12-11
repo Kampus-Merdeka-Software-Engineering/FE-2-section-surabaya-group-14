@@ -4,12 +4,13 @@
 - Kevin (Project Leader, FE)
 - febriana (FE)
 - Indah Purnama (BE)
-- Desti fara (BE)
+- Desti farah (BE)
 - Berlian (QA)
 - Nurrifdah (QA)
 
 ## Requirement Specification
-### FE [Link Github Page](https://kampus-merdeka-software-engineering.github.io/FE-2-surabaya-14/)
+### FE [Link Github Page](https://kampus-merdeka-software-engineering.github.io/FE-2-section-surabaya-group-14/)
+
 - Native HTML, CSS, Javascript, Font-Awesome.
 ### BE
 - Framework : Express JS.
