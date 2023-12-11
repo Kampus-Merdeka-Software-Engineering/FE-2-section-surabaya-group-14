@@ -1,6 +1,37 @@
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .navbar');
+const contactForm = document.getElementById('form');
 
+  contactForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+  
+    const fullName = document.getElementById('full-name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    const message = document.getElementById('message').value;
+  
+    fetch('https://be-2-section-surabaya-group-14-production.up.railway.app/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        fullname: Name,
+        email: Email,
+        phone: Phone,
+        message: Message,
+      }),
+    })
+      .then((response) => {
+        if (response.ok) {
+          alert('Succesfully Submit Form');
+          location.reload(true);
+        } else {
+          alert('Failed to Submit Form');
+        }
+      })
+      .catch((error) => {
+        alert('Something When Wrong to Submit!', error);
+      });
+  });
 menu.onclick = () => {
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
